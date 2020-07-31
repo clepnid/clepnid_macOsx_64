@@ -1,7 +1,7 @@
 Puede ejecutar el programa de dos formas haciendo uso de la terminal:
 
 1
-java -XstartOnFirstThread -jar netclip_macOsx_64.jar
+java -XstartOnFirstThread -jar Clepnid_macOsx_64.jar
 
 2
 Chmod 755 ejecutable.sh

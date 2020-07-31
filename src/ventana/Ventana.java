@@ -139,8 +139,8 @@ public class Ventana {
 			public void handleEvent(Event event) {
 				int style = SWT.APPLICATION_MODAL | SWT.YES | SWT.NO;
 				MessageBox messageBox = new MessageBox(shlSwt, style);
-				messageBox.setText("ClipRed");
-				messageBox.setMessage("¿Quieres cerrar ClipRed?");
+				messageBox.setText("Clepnid");
+				messageBox.setMessage("¿Quieres cerrar Clepnid?");
 				if (messageBox.open() == SWT.YES) {
 					// llamamos el metodo cerrar de la aplicacion para cerrar los demas hilos.
 					cerrar();
@@ -200,7 +200,7 @@ public class Ventana {
 		shlSwt.setImage(getImageValida(display, "./src/imagenes/clipboard.gif"));
 		shlSwt.setSize(600, 400);
 		shlSwt.setMinimumSize(400, 0);
-		shlSwt.setText("Netclip");
+		shlSwt.setText("Clepnid");
 		shlSwt.setLayout(new GridLayout(1, false));
 
 		c2 = new ScrolledComposite(shlSwt, SWT.NONE | SWT.H_SCROLL | SWT.V_SCROLL);
